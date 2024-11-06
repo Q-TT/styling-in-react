@@ -1,6 +1,6 @@
-const Button = ({ buttonText }) => {
+const Button4 = ({ buttonText }) => {
     return <button>{buttonText}</button>;
   };
 
-export default Button;
+export default Button4;
   
