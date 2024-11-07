@@ -1,0 +1,12 @@
+/* src/components/example-5-css-modules/button.module.css */
+/* class is local, others will be global */
+
+.btn {
+    background-color: #ffa500;
+    border-radius: 8px;
+    color: white;
+    font-size: 24pt;
+    padding: 15px 50px;
+    width: 300px;
+  }
+  

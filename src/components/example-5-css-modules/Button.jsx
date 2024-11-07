@@ -1,6 +1,11 @@
+// src/components/example-5-css-modules/Button.jsx
+
+import styles from './button.module.css';
+
 const Button5 = ({ buttonText }) => {
-    return <button>{buttonText}</button>;
-  };
-  
+  return <button className={styles.btn}>{buttonText}</button>;
+};
+
 export default Button5;
+
   
